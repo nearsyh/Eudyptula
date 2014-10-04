@@ -26,10 +26,3 @@
 *.exe
 *.out
 *.app
-
-# Kernel module
-*.cmd
-*.symvers
-*.ko
-*.mod.c
-*.order
