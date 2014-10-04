@@ -2,10 +2,9 @@
 #include <linux/kernel.h>
 
 int init_module(void) {
-  printk(KERN_INFO "Hello world 1.\n");
+  printk(KERN_DEBUG "Hello World!\n");
   return 0;
 }
 
 void cleanup_module(void) {
-  printk(KERN_INFO "Goodby world 1.\n");
 }
